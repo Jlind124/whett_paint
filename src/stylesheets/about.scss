@@ -1,0 +1,251 @@
+/* Your styles go here */
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+*  
+    { 
+    margin: -15; 
+    padding: 0; 
+    border: 0; 
+}
+
+html, body { overflow-x: hidden; }
+
+body {
+    background-color: none;
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+// ////////////////////////////////////////////////////////////////////////////////////////////
+// footer under control
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+// nav section
+nav {
+    // background-color: white;
+    height: 100px;
+}
+
+
+
+.navbarbackgroundgradient{
+    background-color: dark;
+}
+
+.navcolorwhite {
+    color: blue;
+}
+
+.logosize {
+    width: 130px;
+    height: 130px;
+}
+
+.logosizefooter {
+    width: 80px;
+    height: 80px;
+    
+}
+
+.floatright {
+    float: right;
+}
+
+.bgroundededges {
+    border-radius: 25px;
+  background: white;
+  padding: 20px;
+  width: 210px;
+  height: 80px;
+}
+
+.dropdowncolor {
+    background-color: white;
+}
+
+.dropdownmenu {
+    min-height: 500px;
+}
+
+.dropdownmenumarginright {
+    margin-right: 20%;
+}
+
+
+// main
+.mainsectionmargins {
+    margin: 3em;
+}
+
+
+// About image
+.aboutpageimage {
+    width: 300px;
+    height: 300px;
+} 
+// About image end
+
+
+//main
+
+
+.counter-section p {
+    font-weight: 500;
+    margin: 0;
+    color: #fe4f6c;
+  }
+  .theme-color {
+      color: #a0384b;
+  }
+  
+  .section {
+      padding: 100px 0;
+      position: relative;
+  }
+  .gray-bg {
+      background-color: #ebf4fa;
+  }
+  .px-btn.theme {
+      background: #a0384b;
+      color: #ffffff;
+      border: 2px solid #a0384b;
+  }
+  .px-btn {
+      padding: 0 20px;
+      line-height: 42px;
+      border: 2px solid transparent;
+      position: relative;
+      display: inline-block;
+      background: none;
+      border: none;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 500;
+  }
+  
+  .px-btn.theme-t {
+      background: transparent;
+      border: 2px solid #fe4f6c;
+      color: #fe4f6c;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: blue;
+    height: 240px;
+}
+
+.footer75 {
+    height: 120px;
+}
+
+.footercolumnheight {
+    height: 240px;
+}
+
+.removemarginspadding{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+
+
+
+.footertext {
+    font-size: small;
+}
+
+.footertextcopy {
+    font-size: xx-small;
+}
+
+.linklogosize{
+    width: 20px;
+    height: 20px;
+}
+
+// mobile
+@media all and (max-width: 480px){
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    
+    
+    // .thesearchbar {
+    //     display: none;
+    // }
+     
+    
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+    *{
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    
+    body {
+        background-color: none;
+        background-size: cover;
+    }
+    // .thesearchbar {
+    //     display: none;
+    // }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px){
+    // *{
+    //     padding: 0;
+    //     margin: 0;
+    //     border: 0;
+    // }
+
+
+    body {
+        background-color: none;
+    }
+    // .thesearchbar {
+    //     display: none;
+    // }
+}
